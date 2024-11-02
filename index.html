@@ -4,23 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XregularC's Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_core.css">
+	<link rel="stylesheet" href="styles_homepage.css">
 </head>
 <body>
-    <header>
-        <h1>XregularC's Website</h1>
-        <nav>
-            <ul>
-                <li><a href="/" class="active">Home</a></li>
-                <li><a href="projects">Projects</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="https://youtube.com/@xregularc" class="youtube-link" target="_blank">YouTube</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <footer>
-        <p>Copyright © Your Website 2023</p>
-    </footer>
+	<div class="wrapper">
+		<div class="content">
+			<header>
+				<h1>XregularC's Website</h1>
+				<nav> <!-- JAVASCRIPT - JavaScript assigns class, CSS keeps the directories always visible and available at top. Not essential. -->
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="https://1drv.ms/f/s!AmMp7Fgrj5PAhzxdYO94NV6O5RYD" class="onedrive-repository-link" target="_blank" rel="noopener noreferrer">OneDrive</a></li>
+						<li><a href="https://www.royalroad.com/profile/553383" class="royalroad-repository-link" target="_blank" rel="noopener noreferrer">Royal Road</a></li>
+						<li><a href="https://www.reddit.com/user/XregularC/" class="reddit-repository-link" target="_blank" rel="noopener noreferrer">Reddit</a></li>
+						<li><a href="https://youtube.com/@xregularc" class="youtube-repository-link" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+						<li><a href="https://github.com/XregularC" class="github-repository-link" target="_blank" rel="noopener noreferrer">Github</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<main>
+				<section class="main-section-projects">
+					<h2>Projects of Mine</h2>
+					<p>This list contains some of some of my more cherished projects. The colored text links to where the associated project is located in its repository and takes you there if pressed. The color of the text indicates the website of the repository. The download button downloads the project directly to your computer, though not necessarily from the same repository.</p>
+					<div>
+						<div>
+							<h3>Fictional Stories:</h3>
+							<ul>
+								Nothing here yet :/
+							</ul>
+						</div>
+						<div>
+							<h3>Software & Programs:</h3>
+							<ul>
+								Nothing here yet :/
+							</ul>
+						</div>
+						<div>
+							<h3>Philosophy & Science:</h3>
+							<ul>
+								<li>
+									<a class="download-link" aria-label="Download Mathematics Library" href="https://onedrive.live.com/download?resid=C0938F2B58EC2963!955&amp;authkey=!AJQwbQPRmEVXqB4&amp;ithint=file%2cpdf&amp;e=RXvdna" rel="noopener noreferrer">
+										<img src="images/download-button.png" alt="Download" style="width: 24px; height: 24px;">
+									</a>
+									<a class="onedrive-repository-link" href="https://onedrive.live.com/?authkey=%21AF1g73g1Xo7lFgM&id=C0938F2B58EC2963%21951&cid=C0938F2B58EC2963" target="_blank" rel="noopener noreferrer">Mathematics Library (A.24.08)</a>
+								</li>
+								<li>
+									<a class="download-link" aria-label="Download Konvok" href="https://github.com/XregularC/Konvok/archive/refs/heads/main.zip" rel="noopener noreferrer">
+										<img src="images/download-button.png" alt="Download" style="width: 24px; height: 24px;">
+									</a>
+									<a href="https://github.com/XregularC/Konvok" class="github-repository-link" target="_blank" rel="noopener noreferrer">Konvok - My Conlang</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				
+				<section class="main-section-updates">
+					<h2>News and Updates</h2>
+					<div class="news-container">
+						<article class="news-item">
+							<h3>Creating A Website!</h3>
+							<p><em>Date: 2024-11-01</em></p>
+							<p>After years of contemplation, I have officially begun working seriously on my website, and it is starting to shape up nicely.
+							Still an amateur with HTML and CSS but am learning quickly with ChatGPT's help combined with former experience programming. There is a great deal of work ahead, but it will be worth it.</p>
+						</article>
+						
+						
+						
+						<!-- Add more news items as needed -->
+					</div>
+				</section>
+				
+				<section class="main-section-about">
+					<h2>About This Page</h2>
+					<div>
+						Welp
+					</div>
+				</section>
+			</main>
+
+		</div>
+		
+		<footer>
+			<p>Copyright © Pontus Wiberg 2024</p>
+		</footer>
+	</div>
+	
+	
+	<script src="script.js"></script>
 </body>
 </html>
