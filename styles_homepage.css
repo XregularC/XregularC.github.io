@@ -1,0 +1,149 @@
+
+body > div > div > main ul {
+    padding: 0;
+	list-style: none;
+}
+body > div > div > main ul > li {
+    display: inline;
+    margin-right: 10px;
+}
+body > div > div > main ul > li {
+	margin-top: 10px;
+}
+body > div > div > main ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+body > div > div > main ul > li > a.active {
+	text-decoration: underline;
+    color: #a0e0cf;
+}
+body > div > div > main ul > li > a.onedrive-repository-link {
+	color: #40b0ff;
+}
+body > div > div > main ul > li > a.youtube-repository-link {
+    color: red;
+}
+body > div > div > main ul > li > a.royalroad-repository-link {
+    color: yellow;
+}
+body > div > div > main ul > li > a.github-repository-link {
+    color: #a060ff;
+}
+body > div > div > main ul > li > a.reddit-repository-link {
+    color: orange;
+}
+
+
+body > div.wrapper{
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the wrapper fills the viewport */
+	
+    background: #444444; /* Background for main content */
+}
+body > div.wrapper > div.content {
+	flex: 1;
+}
+
+body > div.wrapper > div.content main {
+    padding: 20px;    /* Add padding for main content */
+    overflow: auto;   /* Enable scrolling if content exceeds the height */
+	color: white;
+	
+	text-align: center;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+body > div.wrapper > div.content main > section {
+	margin: 10px;
+	
+    background: #393939;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+body > div.wrapper > div.content div a.download-link img{
+	vertical-align: middle;
+}
+body > div.wrapper > div.content div a.download-link img:hover{
+	transform: scale(1.1);
+}
+
+body > div.wrapper > div.content main > section.main-section-projects{
+	flex-basis: 900px;
+}
+section > h2{
+	text-decoration: underline;
+}
+section.main-section-projects > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Optional: Adds spacing between items */
+}
+
+section.main-section-projects > div > div{
+	padding: 15px;
+	flex: 1;
+	min-width: 290px;
+	max-width: 310px;
+}
+section.main-section-projects > div > div a.onedrive-repository-link{
+	color: #50c0ff;
+	vertical-align: middle;
+}
+section.main-section-projects > div > div a.download-link{
+	color: #4499ff;
+}
+
+
+
+body > div.wrapper > div.content main > section.main-section-about {
+	flex-basis: 2000px;
+}
+
+body > div.wrapper > div.content main > section.main-section-updates{
+	flex-basis: 700px;
+}
+
+section.main-section-updates div.news-container {
+    max-height: 600px; /* Set a maximum height for the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px; /* Add some padding */
+	margin: 20px;
+    border: 1px solid #666; /* Optional: border around the container */
+    background: #246; /* Background color for the container */
+}
+
+section.main-section-updates article.news-item {
+    background: #456; /* Dark background for the news items */
+    color: white; /* White text color */
+    padding: 15px; /* Padding for spacing */
+    margin: 10px 0; /* Margin between items */
+    border-radius: 5px; /* Rounded corners */
+}
+
+section.main-section-updates article.news-item h3 {
+    margin-bottom: 5px; /* Spacing below the title */
+}
+
+section.main-section-updates article.news-item em {
+    font-size: 0.9em; /* Smaller font size for the date */
+    color: #ccc; /* Lighter color for the date */
+}
+
+
+
+
+
+body > div.wrapper > footer {
+    width: 100%;       /* Full width */
+    background-color: #333;  /* Dark background color for footer */
+    color: white;      /* White text color */
+    text-align: center; /* Center text in footer */
+    padding: 10px 0;   /* Padding for footer */
+    position: relative; /* Relative positioning for footer */
+}
