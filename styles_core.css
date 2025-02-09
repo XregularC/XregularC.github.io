@@ -63,7 +63,7 @@ body > div > div > header > nav > ul > li > a.active {
 	text-decoration: underline;
     color: #a0e0cf;
 }
-body > div > div > header > nav > ul > li > a.onedrive-repository-link {
+body > div > div > header > nav > ul > li > a.gdrive-repository-link {
 	color: #40b0ff;
 }
 body > div > div > header > nav > ul > li > a.youtube-repository-link {
@@ -77,6 +77,15 @@ body > div > div > header > nav > ul > li > a.github-repository-link {
 }
 body > div > div > header > nav > ul > li > a.reddit-repository-link {
     color: orange;
+}
+body > div > div > header > nav > ul > li > a.discord-repository-link {
+	color: #ff30b0;
+}
+body > div > div > header > nav > ul > li > a.patreon-repository-link {
+	color: #30b0b0;
+}
+body > div > div > header > nav > ul > li > a.buymeacoffee-repository-link {
+	color: #70c030;
 }
 
 
@@ -136,7 +145,7 @@ section.main-section-projects > div > div{
 	min-width: 290px;
 	max-width: 310px;
 }
-section.main-section-projects > div > div a.onedrive-repository-link{
+section.main-section-projects > div > div a.gdrive-repository-link{
 	color: #50c0ff;
 	vertical-align: middle;
 }
